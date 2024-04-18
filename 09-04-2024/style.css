@@ -1,4 +1,4 @@
-#Box{
+/* #Box{
   background-color: aqua;
   border: 2px solid black;
   width: 150px;
@@ -6,4 +6,24 @@
   margin-top: 250px;
   margin-left: 250px;
   text-align: center;
+} */
+
+/* .dark{
+  background-color: black;
+  color: white;
+}
+
+.light{
+  background-color: white;
+  color: black;
+} */
+
+.small{
+  background-color: red;
+  font-style: italic;
+};
+
+.big{
+  background-color: aqua;
+  font-size: large;
 }

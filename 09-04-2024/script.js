@@ -48,7 +48,61 @@
 // Body.prepend(Btn)
 
 
-// Q- 
+// Q- create toggle button and change mode to light and dark.
+
+// let modeBtn = document.querySelector("#btn")
+
+// let currMode = "light";
+
+// modeBtn.addEventListener("click",()=>{
+//   if(currMode === "light"){
+//     currMode = "dark";
+//     document.querySelector("body").classList.add("dark");
+//     document.querySelector("body").classList.remove("light");
+//   }else{
+//     currMode = "light"
+//     document.querySelector("body").classList.add("light");
+//     document.querySelector("body").classList.remove("dark");
+//   }
+//   console.log(currMode);
+// });
+
+// create something useing Mouseover event.
+
+// let capWord = document.querySelector("#hover");
+
+// let currWord = "small";
+
+// capWord.addEventListener("mouseover",()=>{
+//   if(currWord === "small"){
+//     currWord = "big";
+//     document.querySelector("h1").classList.add("big");
+//     document.querySelector ("h1").classList.remove("small");
+//   }else{
+//     currWord="small";
+//     document.querySelector.classList.add("small");
+//     document.querySelector.classList.remove("big")
+//   }
+//   console.log(capWord);
+// })
+
+// document.getElementById("hover").addEventListener("mouseover",mouseover);
+// document.getElementById("hover").addEventListener("mouseout",mouseout);
+
+// function mouseover (){
+//   document.getElementById("hover").style.backgroundColor="red";
+// };
+
+// function mouseout (){
+//   document.getElementById("hover").style.backgroundColor="Blue"
+// };
+
+
+
+
+
+
+
 
 
 
