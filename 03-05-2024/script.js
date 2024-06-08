@@ -5,7 +5,7 @@
 //     setTimeout(()=>{
 //       console.log("data",dataID);
 //       resolve("success")
-//     },3000)
+//     },5000)
 //   });
 // }
 // console.log("fetcthing Data")
@@ -44,7 +44,7 @@
 // }
 
 
-// (async function (){
+// (async function(){
 //   console.log("getting Data 1 ...")
 //   await getData(1);
 //   console.log("getting Data 2 ...")
@@ -90,25 +90,25 @@
 
 // Learning API fetching.
 
-const URL =  "https://catfact.ninja/fact";
-const docData = document.querySelector("#ParaSelector");
-const DocButton =document.querySelector("#butTon");
+// const URL =  "https://catfact.ninja/fact";
+// const docData = document.querySelector("#ParaSelector");
+// const DocButton =document.querySelector("#butTon");
 
 
 
 
-const getFact = async()=>{
-  console.log("getting data....");
-  await new Promise(resolve=> setTimeout(resolve,2000));
-  console.log("Here comes the data")
-  let response = await fetch(URL);
-console.log(response);
-let data = await response.json();
-docData.innerText=data.fact;
+// const getFact = async()=>{
+//   console.log("getting data....");
+//   await new Promise(resolve=> setTimeout(resolve,2000));
+//   console.log("Here comes the data")
+//   let response = await fetch(URL);
+// console.log(response);
+// let data = await response.json();
+// docData.innerText=data.fact;
 
-};
+// };
 
-DocButton.addEventListener("click",getFact);
+// DocButton.addEventListener("click",getFact);
 
 
 
